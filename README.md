@@ -4,9 +4,10 @@ The equations and their discretized form are given in the PDF file in the reposi
 ## Usage
 The Main function is  
 
-'''python
+~~~python
     chn_sim_run(n, nx, udiff_target)
-'''
+~~~  
+
 Which takes 'n' as the power law index, 'nx' as the number of grid points along each axis, and 'udiff_target' which is the convergence target, which is mostly set to 1e-6.
 This returns u, v, p, vel_anal, nu1, gamma_dot, S11, S12, S22 and plotpdiff. Where u and v ae x and y components of viscosity. p is the pressure field,
 and nu1 is the final array of kinematic viscosity at each grid point. gamma_dot is the strain rate, and S11, S22, S12 are the elements of the strain rate tensor.
@@ -17,9 +18,9 @@ Changing grid size is quite simple as you directly specify it in the function ca
 
 ## Details
 The grid is 2 by 2 units. The Reynold's number is kept at Re = 40 and the pressure gradient required is computed by the function 
-'''python
+~~~python
 nonNewtanalytical(n, H,ny)
-'''
+~~~
 H is two here and n is the power law index, ny is the number of grid points along the y axis.
 YOu can change the Re as per your requirement in this function
 ## Issues
