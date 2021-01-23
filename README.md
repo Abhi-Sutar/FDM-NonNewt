@@ -10,7 +10,7 @@ The Main function is
 ~~~  
 
 Which takes 'n' as the power law index, 'nx' as the number of grid points along each axis, and 'udiff_target' which is the convergence target, which is mostly set to 1e-6.
-This returns u, v, p, vel_anal, nu1, gamma_dot, S11, S12, S22 and plotpdiff. Where u and v ae x and y components of viscosity. p is the pressure field,
+This returns u, v, p, vel_anal, nu1, gamma_dot, S11, S12, S22 and plotpdiff. Where u and v are x and y components of velocity. p is the pressure field,
 and nu1 is the final array of kinematic viscosity at each grid point. gamma_dot is the strain rate, and S11, S22, S12 are the elements of the strain rate tensor.
 plotpdiff is the array of convergence calculation outputs for the pressure field calculations and is only there for testing purposes.
 
