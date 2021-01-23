@@ -26,7 +26,7 @@ H is two here and n is the power law index, ny is the number of grid points alon
 YOu can change the Re as per your requirement in this function
 ## Issues
 The biggest issue with this code is the we can only run shear thinning fluid, i.e., those with power law index(n) less than 1 for a rather coarse 34 by 34 grid and only for n more than 0.7 or thereabouts. There is still some instability in the solver and the solution blows up for finer grids. 
-The secondis notso much an issue as just a heads up, the notebook was written in Google's Colaboratory. The tab indentation as half of what the standard jupyter notebook editor uses so you may have to adjust the indentation if you execute the notebook in jupyter notebook. If you want to save yourself the hassle, you might as well run it in Colaboratory.
+The second is not so much an issue as just a heads up, the notebook was written in Google's Colaboratory. The tab indentation as half of what the standard jupyter notebook editor uses so you may have to adjust the indentation if you execute the notebook in jupyter notebook. If you want to save yourself the hassle, you might as well run it in Colaboratory.
 
 ## Contributing
 Pull requests are welcome. It might be a good idea to give some explanation as to what the changes proposed are exactly doing.
