@@ -1,5 +1,5 @@
 # Finite Difference Method Non-newtonian Truncated Power Law fluid
-This Notebook solves the momentum equations for a variable viscosity fluid in two dimensions in a pressure driven channel flow or poiseuille flow. In this case, the viscosity is computed for a truncated power law fluid. The Pressure Poisson equation has been accelerated by leveraging the GPU using the numba library  
+This Notebook solves the momentum equations for a variable viscosity fluid in two dimensions in a pressure driven channel flow or poiseuille flow. The solver is an explicit one. In this case, the viscosity is computed for a truncated power law fluid. The Pressure Poisson equation has been accelerated by leveraging the GPU using the numba library  
 
 The equations and their discretized form are given in the PDF file in the repository. We have used the basic idea of 2D FDM solvers from the [12 steps to Navier-Stokes](https://github.com/barbagroup/CFDPython) by Prof. Lorena Barba.
 ## Usage
