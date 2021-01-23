@@ -33,7 +33,7 @@ Pull requests are welcome. It might be a good idea to give some explanation as t
 ## License
 
 A slightly modified version of the [MIT](https://choosealicense.com/licenses/mit/) License that you will find here.
-Copyright (c) [2020] [Abhijeet Sutar and Yash Kala]
+Copyright &copy; [2020] [Abhijeet Sutar and Yash Kala]
 Our emails:
 * Abhijeet : <sutar.2@iitj.ac.in>
 * Yash : <kala.1@iitj.ac.in>  
