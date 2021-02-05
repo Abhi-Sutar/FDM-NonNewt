@@ -23,7 +23,7 @@ The grid is 2 by 2 units. The Reynold's number is kept at Re = 40 and the pressu
 nonNewtanalytical(n, H,ny)
 ~~~
 H is height of the channel and is 2 units here and n is the power law index, ny is the number of grid points along the y axis.
-YOu can change the Re as per your requirement in this function
+You can change the Re as per your requirement in this function
 ## Issues
 The biggest issue with this code is the we can only run shear thinning fluid, i.e., those with power law index(n) less than 1 for a rather coarse 34 by 34 grid and only for n more than 0.7 or thereabouts. There is still some instability in the solver and the solution blows up for finer grids.  
 
